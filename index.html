@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleBookLibrary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header-container">
+        <h1 class="site-title">Simple Book Library</h1>
+        <div class="LibraryBookCard">
+        </div>
+    </div>
+
+    <br>
+    <form id="add-book-form" class="popup-form" style="display: none;">
+        <label for="book-name">Book Name:</label>
+        <input type="text" id="book-name" name="book-name" required><br>
+
+        <label for="author-name">Author Name:</label>
+        <input type="text" id="author-name" name="author-name" required><br>
+
+        <label for="pages">Number of Pages:</label>
+        <input type="number" id="pages" name="pages" required><br>
+
+        <label for="read-status">Read Status:</label>
+        <input type="text" id="read-status" name="read-status" required><br>
+
+        <button type="submit">Add Book</button>
+    </form>
+
+    <div class="libraryContainer">
+     
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
